@@ -1,0 +1,178 @@
+body {
+
+    background-color: rgb(129, 133, 137);
+}
+
+h1 {
+
+    text-align: center;
+    color: white;
+}
+
+.div1 {
+
+    background-color: black;
+}
+
+li {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+
+.text-1 {
+
+    color: whitesmoke;
+}
+
+.background-2 {
+
+    color: black;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 200px;
+    top: 250px;
+    background-color: rgba(44, 44, 49, 0.8);
+    padding: 0 1rem;
+}
+
+
+
+.Featured{
+
+    text-align: center;
+
+ }
+
+ .pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    gap: 150px;
+  }
+
+  .pricing-plan {
+    flex: 1;
+    max-width: 150px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .plan-title {
+    font-size: 24px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+
+  .plan-price {
+    font-size: 12px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .plan-features li {
+    margin-bottom: 20px;
+  }
+
+  .plan-button {
+    padding: 10px;
+    background-color: grey;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+
+  @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+  
+
+
+    .form {
+        background-color: black;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+        
+       
+    }
+
+    .form h1 {
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="button"] {
+        background-color: grey;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type="button"]:hover {
+        background-color: #45a049;
+    }
+
+    .body1 {
+        font-family: 'Arial', sans-serif;
+        background-color: grey;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+.about{
+
+}
+ 
